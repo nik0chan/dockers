@@ -15,6 +15,11 @@ LABEL MAINTAINER Nico <nik0chan@hotmail.com>
 # System cleanup 
 #	 rm -rf /var/lib/apt /var/lib/dpkg /var/cache/apt /usr/share/doc /usr/share/man  ...
 
+# RUN sed -i "s/texto_original/texto_substituido/" path_archivo 
+# Modificar los archivos de configuración utilizando el comando sed 
+
+
+
 #ADD     ...
 
 # USER <user>
