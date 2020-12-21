@@ -1,0 +1,17 @@
+FROM debian:10 
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+LABEL MAINTAINER Nico <nik0chan@hotmail.com>
+
+# WORKDIR ...
+
+#RUN     ... 
+
+#ADD     ...
+       
+#EXPOSE  ...
+       
+# ENTRYPOINT ["executable", "param1", "param2"]
+
+# CMD { ... } 
