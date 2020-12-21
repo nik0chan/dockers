@@ -8,6 +8,13 @@ LABEL MAINTAINER Nico <nik0chan@hotmail.com>
 
 #RUN     ... 
 
+# Log output configuration  
+#	 ln -sf /dev/stdout /logile_path &&  \ 
+#	 ln -sf /dev/stderr /error_logfile_path && \ 
+
+# System cleanup 
+#	 rm -rf /var/lib/apt /var/lib/dpkg /var/cache/apt /usr/share/doc /usr/share/man  ...
+
 #ADD     ...
        
 #EXPOSE  ...
